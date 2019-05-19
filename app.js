@@ -2,34 +2,13 @@
 
 var timeYear = prompt("Пора року","")
 
-if(timeYear == "Зима"){
+if(timeYear == "Зима" || timeYear == "зима" || timeYear == "ЗИМА" ){
 	alert("Зараз зима")
-} else if(timeYear =="зима"){
-	alert("Зараз зима")
-} else if(timeYear =="ЗИМА"){
-	alert("Зараз зима")
-}
-if(timeYear == "Літо"){
+} else if(timeYear == "Літо" || timeYear == "літо"|| timeYear == "ЛІТО" ){
 	alert("Зараз літо")
-} else if(timeYear =="літо"){
-	alert("Зараз літо")
-} else if(timeYear =="ЛІТО"){
-	alert("Зараз літо")
-}
-
-if(timeYear == "Осінь"){
+} else if(timeYear == "Осінь" || timeYear == "осінь" || timeYear == "ОСІНЬ"){
 	alert("Зараз осінь")
-} else if(timeYear =="осінь"){
-	alert("Зараз осінь")
-} else if(timeYear =="ОСІНЬ"){
-	alert("Зараз осінь")
-}
-
-if(timeYear == "Весна"){
-	alert("Зараз весна")
-} else if(timeYear =="весна"){
-	alert("Зараз весна")
-} else if(timeYear =="ВЕСНА"){
+} else if(timeYear == "Весна" || timeYear == "весна" || timeYear == "ВЕСНА" ){
 	alert("Зараз весна")
 }
 
